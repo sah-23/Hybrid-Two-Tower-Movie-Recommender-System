@@ -2,6 +2,8 @@
 
 A full-stack machine learning project that implements two distinct recommendation engines served through a unified web application — a **personalized hybrid deep learning pipeline** trained on 25 million ratings, and a **semantic content similarity engine** for instant item-to-item retrieval. The system is built entirely locally with no external database; all model weights, embeddings, and metadata live in memory after server startup.
 
+![Preview](preview_1.png)
+
 ## Key Features
 
 * **Hybrid Two-Stage Pipeline:** Utilizes a Two-Tower architecture for long-term candidate generation (Stage 1) and a SASRec (Transformer-based) model for short-term sequential ranking (Stage 2).
